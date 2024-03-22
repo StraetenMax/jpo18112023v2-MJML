@@ -1,0 +1,147 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+            <mj-font name="Oswald" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap"/>
+            <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap"/>
+            <mj-class name="d-section" background-color="#fff" width="600px" padding="0px" />
+            <mj-class name="d-titre" padding="3px 50px 14px 60px" font-family="Oswald,Arial,sans-serif" font-size="32px" line-height="38px" color="#ac39ac"/>
+            <mj-class name="d-sous-titre" padding="20px 50px 3px 60px" font-family="Oswald,Arial,sans-serif" font-size="20px" line-height="22px" color="#732673"/>
+            <mj-class name="d-text" padding="6px 60px" font-family="Roboto,Arial,sans-serif" font-size="16px" line-height="20px" color="#14141f"/>
+            <mj-class name="d-lieu" padding="2px 50px 2px 60px" font-family="Roboto,Arial,sans-serif" font-size="16px" font-weight="400" color="#626262" />
+            <mj-class name="d-admin" padding="5px" font-family="Roboto,Arial,sans-serif" align="center" font-size="12px" line-height="14px" font-weight="400" color="#626262" />
+        </mj-attributes>
+        <mj-style>
+            @media(max-width:480px){
+                .m-padding{
+                    padding:4px 20px !important;
+                }
+                .m-padding2{
+                    padding:2px 20px !important;
+                }
+                .m-footer{
+                    text-align: center !important;
+                }
+                .m-footer1{
+                    width: 100% !important;
+                    padding: 35px 2px 2px 2px !important;
+                }
+                .m-footer2{
+                    width: 100% !important;
+                    padding: 2px 2px 2px 2px !important;
+                }
+                .m-footer3{
+                    text-align: center !important;
+                    width: 100% !important;
+                    padding: 10px 2px 35px 2px !important;
+                }
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body background-color="#dedede">
+        <mj-section padding="0">
+            <mj-column>
+                <mj-text mj-class="d-admin">
+                    Si vous ne parvenez pas à lire cet e-mail, cliquez <a href="{{ mirror }}">ici</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section mj-class="d-section">
+            <mj-column>
+                <mj-image href="https://ecosup-campus.fr" padding="0" src="images/jPO18112023_01.jpg" target="_blank" alt="Logo d'Ecosup Campus" />
+            </mj-column>
+        </mj-section>
+        <!--titre-->
+        <mj-section mj-class="d-section">
+            <mj-column>
+                <mj-image href="https://ecosup-sante.fr" padding="0px" src="images/jPO18112023_02.jpg" target="_blank" alt="Affiche de la Journée Portes Ouvertes du samedi 18 novembre 2023"/>
+                <mj-text align="left" mj-class="d-sous-titre" text-transform="uppercase" font-weight="700" css-class="m-padding">
+                   <strong>Invitation JPO du 18 novembre 2023</strong>
+                </mj-text>
+                <mj-text align="left" mj-class="d-titre" font-weight="700" css-class="m-padding">
+                Rendez-vous à Ecosup Campus
+                </mj-text>
+            </mj-column>
+        </mj-section>
+                <!--texte-->
+        <mj-section mj-class="d-section">
+            <mj-column>
+                <mj-text mj-class="d-text" css-class="m-padding">
+                {{ contact.PRENOM }}, vous avez participé au salon Studyrama de la Santé, du Paramédical et du Social au Palais de la Bourse à Lille (le samedi 11 novembre 2023) et nous vous remercions de l'intérêt porté à notre école.
+                </mj-text>
+                <mj-text mj-class="d-text" css-class="m-padding">
+                Afin de poursuivre nos échanges, visiter notre campus et rencontrer nos formateurs nous vous invitons à notre Journée Portes Ouvertes:
+                </mj-text>
+                <mj-text mj-class="d-sous-titre" css-class="m-padding">
+                <strong style="color:#732673">le Samedi 18 Novembre de 9h30 à 13h.</strong>
+                </mj-text>
+                <!--<mj-button font-size="16px" font-weight="700" background-color="#ff6600" color="white" href="https://forms.gle/hd24WJvFADL6jwLb9">
+                    JE PARTICIPE
+                    </mj-button>-->
+                    <mj-divider padding="30px 0px 20px 0px" width="50%" align="center" border-width="1px" border-style="solid" border-color="#732673" />
+                </mj-column>
+                </mj-section>
+                <!--Comment s'y rendre-->
+                <mj-section mj-class="d-section">
+                <mj-column>
+                <mj-text font-size="18px" font-weight="700" color="#732673" mj-class="d-lieu" css-class="m-padding2"> 
+                        Comment s'y rendre ?
+                </mj-text>
+                <mj-text mj-class="d-lieu" css-class="m-padding2">
+                        <b style="color:#cc66cc">Accès Métro :</b> station Tourcoing centre.
+                    </mj-text>
+                    <mj-text mj-class="d-lieu" css-class="m-padding2">
+                        <b style="color:#cc66cc">Accès Tramway :</b> Terminus Tourcoing.
+                    </mj-text>
+                    <mj-text mj-class="d-lieu" css-class="m-padding2">
+                        <b style="color:#cc66cc">Accès Bus :</b> Gare routière de Tourcoing.
+                    </mj-text>
+                    <mj-text mj-class="d-lieu" css-class="m-padding2">
+                        <b style="color:#cc66cc">Accès Train :</b> Gare de Tourcoing puis station de Métro Tourcoing centre
+                    </mj-text>
+                    <mj-text mj-class="d-lieu" css-class="m-padding2">
+                        <b style="color:#cc66cc">Accès Voiture :</b> Tourcoing centre.
+                    </mj-text>
+                    <mj-spacer height="30px"/>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0" background-color="#ac39ac">
+            <mj-column width="50%">
+                <mj-text padding="35px 35px 2px 35px" align="left" font-size="16px" font-weight="900" color="#FFFFFF" css-class="m-footer">
+                   <div class="m-footer">ECOSUP CAMPUS</div>
+                </mj-text>
+                <mj-text padding="2px 35px 2px 35px" align="left" font-size="13px" color="#FFFFFF" css-class="m-footer2">
+                  <div class="m-footer"> 17 Place Charles et Albert Roussel,</div>
+                </mj-text>
+                <mj-text padding="2px 35px 2px 35px" align="left" font-size="13px" color="#FFFFFF" css-class="m-footer2">
+                    <div class="m-footer">59200 TOURCOING</div>
+                </mj-text>
+                <mj-text padding="2px 35px 2px 35px" align="left"  font-size="13px" color="#FFFFFF" css-class="m-footer2">
+                    <div class="m-footer">03.20.70.06.06</div>
+                </mj-text>
+                <mj-text padding="2px 35px 45px 35px" align="left" font-size="13px" color="#FFFFFF" css-class="m-footer2">
+                    <div class="m-footer">contact@ecosup-campus.fr</div>
+                </mj-text>
+            </mj-column>
+            <mj-column width="50%">
+                <mj-social padding="35px 35px 35px 45px" align="right" icon-size="35px" mode="horizontal" css-class="m-footer3">
+                    <mj-social-element background-color="#732673" name="facebook" href="https://www.facebook.com/EcosupCamp"></mj-social-element>
+                    <mj-social-element background-color="#732673" name="instagram" href="https://www.instagram.com/ecosup.campus/"></mj-social-element>
+                </mj-social>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0">
+            <mj-column>
+            <mj-text mj-class="d-admin" line-height="14px">
+                Cet email a été envoyé à {{contact.EMAIL}},<br>
+                 vous l'avez reçu car vous êtes inscrit à Ecosup Campus.
+            </mj-text>
+            <mj-text mj-class="d-admin" >
+                <a href="{{ unsubscribe }}">Se désinscrire</a>
+</mj-text>
+<mj-text mj-class="d-admin">
+©2023 ECOSUP CAMPUS
+            </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
